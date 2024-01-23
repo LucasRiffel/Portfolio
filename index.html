@@ -2,6 +2,9 @@
 <html lang="pt-br">
 
 <head>
+    <script src="https://kit.fontawesome.com/61eba7e136.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="icon" type="image/png" href="../portfolio/img/favicon-programacao.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
@@ -15,14 +18,52 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="">Início</a>
+            <a href="">Habilidades</a>
+            <a href="">Projetos</a>
+        </nav>
+    </header>
     <section class="inicio">
+
         <div class="meuNome">
+
             <h1>Lucas</h1>
             <h2><br>Riffel</h2>
+            <a class="github" href="https://github.com/LucasRiffel">
+                <i class="fab fa-github"></i>
+            </a>
         </div>
     </section>
 
-    <script url="script.js">
+    <section class="Habilidades">
+        <div class="linguagem" onmouseover="mostrarTexto('html')" onmouseout="esconderTexto('html')">
+            <i class="fab fa-html5"></i>
+            <div id="htmlTexto" class="texto-hover">Linguagem de marcação para estruturação de páginas web.</div>
+        </div>
+    
+        <div class="linguagem" onmouseover="mostrarTexto('css')" onmouseout="esconderTexto('css')">
+            <i class="fa-brands fa-css3-alt"></i>
+            <div id="cssTexto" class="texto-hover">Linguagem de estilo para estilizar páginas web.</div>
+        </div>
+    
+        <div class="linguagem" onmouseover="mostrarTexto('javascript')" onmouseout="esconderTexto('javascript')">
+            <i class="fab fa-js"></i>
+            <div id="javascriptTexto" class="texto-hover">Linguagem de programação para tornar páginas web interativas.</div>
+        </div>
+    
+        <div class="linguagem" onmouseover="mostrarTexto('php')" onmouseout="esconderTexto('php')">
+            <i class="fab fa-php"></i>
+            <div id="phpTexto" class="texto-hover">Linguagem de script do lado do servidor para desenvolvimento web dinâmico.</div>
+        </div>
+    
+    </section>
+
+    <section class="Projetos">
+        
+    </section>
+    <script src="script.js">
 
     </script>
 </body>
