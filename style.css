@@ -14,7 +14,7 @@ body {
     border: 0.1px solid rgb(83, 86, 87);
     border-radius: 1px 1px 10px 10px;
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     display: flex;
     justify-content: center;
 }
@@ -50,12 +50,12 @@ body {
     color: #ffffff;
 }
 
-.meuNome > h1 {
-    font-size:5rem;
-    font-family: 'Rubik Doodle Shadow' , sans-serif;
+.meuNome>h1 {
+    font-size: 5rem;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
 }
 
-.meuNome > h2 {
+.meuNome>h2 {
     font-size: 4rem;
     font-family: 'Nanum Brush Script', cursive;
 }
@@ -64,24 +64,26 @@ body {
     font-size: 33px;
     color: white;
 }
+
 .github:hover {
-    font-size: 30px;
+    font-size: 33px;
     color: rgb(0, 0, 0);
 }
 
 .habilidades {
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #3f3e3e;
     margin-top: 20px;
+    align-items: center;
 }
 
-.linguagem {
+.Html , .Css , .Js , .PHP {
     display: inline-block;
     position: relative;
     cursor: pointer;
     padding: 20px;
     margin: 10px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .texto-hover {
@@ -89,7 +91,22 @@ body {
     padding: 5px;
     background-color: #333;
     color: #fff;
-    border-radius: 5px;
-    font-size: 10px;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
+.Html:hover {
+    color: #fd5f04;
+}
+
+.Css:hover {
+    color: #368dff;
+}
+
+.Js:hover {
+    color: #fdcf04;
+}
+
+.PHP:hover {
+    color: #1d04fd;
+}
