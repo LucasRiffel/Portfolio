@@ -11,10 +11,9 @@ body {
     top: 0;
     width: 100%;
     height: 5vh;
-    border: 0.1px solid rgb(83, 86, 87);
+    border: 0.1px solid rgb(128, 128, 128);
     border-radius: 1px 1px 10px 10px;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(50px);
+    background-color: rgba(39, 39, 39, 0.75);
     display: flex;
     justify-content: center;
 }
@@ -38,7 +37,7 @@ body {
 
 .inicio {
     height: 100vh;
-    background-color: #202124;
+    background-color: #acacac;
 }
 
 .meuNome {
@@ -46,8 +45,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-height: 100vh;
     margin: 0;
-    color: #ffffff;
+    color: #000000;
 }
 
 .meuNome>h1 {
@@ -62,37 +62,51 @@ body {
 
 .github {
     font-size: 33px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .github:hover {
     font-size: 33px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
-.habilidades {
-    height: 100vh;
-    background-color: #3f3e3e;
-    margin-top: 20px;
+.Habilidades {
+    min-height: 90vh;
+    background-color: #474e5d;
+    margin-top: 0px;
+    
+}
+
+.Habilidades > .titulo-habilidades > h1 {
+    padding: 35px;
+    margin: 0px;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.linguagens {
+    display: flex;
+    justify-content: center;                                                                                                                                                                    
     align-items: center;
 }
 
-.Html , .Css , .Js , .PHP {
+.Html, .Css, .Js, .PHP {
     display: inline-block;
     position: relative;
     cursor: pointer;
     padding: 20px;
     margin: 10px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .texto-hover {
     position: absolute;
     padding: 5px;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .Html:hover {
@@ -100,7 +114,7 @@ body {
 }
 
 .Css:hover {
-    color: #368dff;
+    color: #0068f0;
 }
 
 .Js:hover {
@@ -108,5 +122,10 @@ body {
 }
 
 .PHP:hover {
-    color: #1d04fd;
+    color: #5a3bc9a8;
+}
+
+.Projetos {
+    min-height: 100vh;
+    background-color: #a3a3a3;
 }

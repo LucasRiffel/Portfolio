@@ -2,77 +2,80 @@
 <html lang="pt-br">
 
 <head>
-    <script src="https://kit.fontawesome.com/61eba7e136.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="icon" type="image/png" href="../portfolio/img/favicon-programacao.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/61eba7e136.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="icon" type="image/png" href="../portfolio/img/favicon-programacao.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="">Início</a>
-            <a href="">Habilidades</a>
-            <a href="">Projetos</a>
-        </nav>
-    </header>
-    <section class="inicio">
+  <header>
+    <nav class="navbar">
+      <a href="">Início</a>
+      <a href="">Habilidades</a>
+      <a href="">Projetos</a>
+    </nav>
+  </header>
+  <section class="inicio">
 
-        <div class="meuNome">
-            <h1>Lucas</h1>
-            <h2><br>Riffel</h2>
-            <a class="github" href="https://github.com/LucasRiffel">
-                <i class="fab fa-github"></i>
-            </a>
+    <div class="meuNome">
+      <h1>Lucas</h1>
+      <h2><br>Riffel</h2>
+      <a class="github" href="https://github.com/LucasRiffel">
+        <i class="fab fa-github"></i>
+      </a>
 
+    </div>
+  </section>
+
+  <section class="Habilidades">
+    <div class="titulo-habilidades">
+      <h1>
+        Minhas Habilidades
+      </h1>
+    </div>
+    <div class="linguagens">
+      <div class="Html" onmouseover="mostrarTexto('html')" onmouseout="esconderTexto('html')">
+        <i class="fab fa-html5"></i>
+        <div id="htmlTexto" class="texto-hover">Linguagem de marcação para estruturação de páginas web.</div>
+      </div>
+
+      <div class="Css" onmouseover="mostrarTexto('css')" onmouseout="esconderTexto('css')">
+        <i class="fa-brands fa-css3-alt"></i>
+        <div id="cssTexto" class="texto-hover">Linguagem de estilo para estilizar páginas web.</div>
+      </div>
+
+      <div class="Js" onmouseover="mostrarTexto('javascript')" onmouseout="esconderTexto('javascript')">
+        <i class="fab fa-js"></i>
+        <div id="javascriptTexto" class="texto-hover">Linguagem de programação para tornar páginas web interativas.
         </div>
-    </section>
+      </div>
 
-    <section class="Habilidades">
-        <div class="Html" onmouseover="mostrarTexto('html')" onmouseout="esconderTexto('html')">
-            <i class="fab fa-html5"></i>
-            <div id="htmlTexto" class="texto-hover">Linguagem de marcação para estruturação de páginas web.</div>
+      <div class="PHP" onmouseover="mostrarTexto('php')" onmouseout="esconderTexto('php')">
+        <i class="fab fa-php"></i>
+        <div id="phpTexto" class="texto-hover">Linguagem de script do lado do servidor para desenvolvimento web
+          dinâmico.
         </div>
+      </div>
+      </div>
+  </section>
 
-        <div class="Css" onmouseover="mostrarTexto('css')" onmouseout="esconderTexto('css')">
-            <i class="fa-brands fa-css3-alt"></i>
-            <div id="cssTexto" class="texto-hover">Linguagem de estilo para estilizar páginas web.</div>
-        </div>
+  <section class="Projetos">
 
-        <div class="Js" onmouseover="mostrarTexto('javascript')" onmouseout="esconderTexto('javascript')">
-            <i class="fab fa-js"></i>
-            <div id="javascriptTexto" class="texto-hover">Linguagem de programação para tornar páginas web interativas.
-            </div>
-        </div>
+  </section>
+  <script src="script.js">
 
-        <div class="PHP" onmouseover="mostrarTexto('php')" onmouseout="esconderTexto('php')">
-            <i class="fab fa-php"></i>
-            <div id="phpTexto" class="texto-hover">Linguagem de script do lado do servidor para desenvolvimento web
-                dinâmico.</div>
-        </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ad eveniet natus! Deserunt, neque.
-            Eligendi cumque officiis, soluta, quas aliquam enim, tempora ex quaerat fugit quo labore harum earum qui.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aperiam eum nostrum nam, ducimus quos
-            aspernatur minima provident assumenda aliquam facere iure ea quidem? Fugit dolore iste ipsum? Porro, culpa!
-        </p>
-    </section>
-
-    <section class="Projetos">
-
-    </section>
-    <script src="script.js">
-
-    </script>
+  </script>
 </body>
 
 </html>
